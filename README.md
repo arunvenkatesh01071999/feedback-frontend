@@ -1,16 +1,70 @@
-# React + Vite
+# 💻 Feedback Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Developer Feedback Board** project.  
+It allows users to **register, log in, post feedback, upvote, and view feedbacks by status** — built with **React.js** and connected to the backend APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **User Registration & Login** with JWT Authentication  
+- **Post new feedbacks** with title and description  
+- **View all feedbacks** grouped by status (Planned, In Progress, Completed)  
+- **Upvote** existing feedbacks  
+- **Responsive design** built using modern UI libraries  
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/arunvenkatesh01071999/feedback-frontend
+cd feedback-frontend
+```
+
+### 2️⃣ **Install dependencies**
+```bash
+npm install
+```
+
+### 3️⃣ **Run the app locally**
+```bash
+npm run dev
+```
+
+---
+
+## 🔗 API Connection
+
+Make sure the backend server is running and update the API base URL in your project’s configuration file (for example, `.env` or `apiConfig.js`):
+
+```
+REACT_APP_API_URL=https://feedback-backend-1-tz7h.onrender.com
+```
+
+---
+
+## 🧪 Tech Stack
+
+- **Frontend:** React.js  
+- **Styling:** CSS, Bootstrap  
+- **API Handling:**  Redux / axios  
+- **State Management:** React Hooks / Context  
+- **Backend Integration:** Node.js (Express), MongoDB  
+
+---
+
+## 🌐 Deployment
+
+Frontend is live on **Netlify**:  
+👉 https://feedbackhubs.netlify.app/login
+
+---
+
+## 👨‍💻 Developer
+
+**Name:** Arun Venkatesh  
+**Email:** arunvenkatesh01071999@gmail.com  
+**Phone:** 9629891571  
+**Backend URL:** https://feedback-backend-1-tz7h.onrender.com
