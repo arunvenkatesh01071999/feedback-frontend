@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL ='https://feedback-backend-1-tz7h.onrender.com/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 
 const api = axios.create({
